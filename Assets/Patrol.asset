@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9800bfc074a5c4cbbaeac1b07f2c3e, type: 3}
+  m_Name: Patrol
+  m_EditorClassIdentifier: 
+  action: {fileID: 11400000, guid: ac76abf5fa5cfb84c833d74392e2fc0d, type: 2}
+  nextState: {fileID: 11400000, guid: eb7a55c381d6a524095522943599f9a5, type: 2}

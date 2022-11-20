@@ -7,7 +7,7 @@ public class StateMachine : MonoBehaviour
 {
     public State startingState;
     private State currentState;
-
+    
     private void Start()
     {
         currentState = startingState;
@@ -17,7 +17,6 @@ public class StateMachine : MonoBehaviour
     {
         RunStateMachine();
     }
-
     private void RunStateMachine()
     {
         if (currentState == null)
@@ -33,7 +32,6 @@ public class StateMachine : MonoBehaviour
             SwitchToNextState(nextState);
         }
     }
-
     private void SwitchToNextState(State next)
     {
         currentState = next;

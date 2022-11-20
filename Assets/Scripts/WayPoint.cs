@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class WayPoint : MonoBehaviour
 {
-    public Transform nextPoint;
+    //PUBLICA EN EL INSPECTOR PARA ANIDAR EL SIGUIENTE WAYPOINT
+    public Transform nextPoint; 
 }

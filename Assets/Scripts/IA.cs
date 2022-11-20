@@ -17,6 +17,5 @@ public class IA : MonoBehaviour
     {
         if (nmAgent)
         nmAgent.SetDestination(target.transform.position);
-
     }
 }

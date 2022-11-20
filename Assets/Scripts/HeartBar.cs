@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class HeartBar : MonoBehaviour
 {
+    //PARA PODER PONER UNA IMAGEN DESDE EL INSPECTOR
     public Image heartBar;
 
     void Update()

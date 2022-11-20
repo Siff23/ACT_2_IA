@@ -5,10 +5,9 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     public float mouseSens = 100f; //SENSIBILIDAD DEL RATON
-    private float yRotation = 0f; //ROTACIÓN DE LA CAMARA
+    private float yRotation = 0f; //ROTACION DE LA CAMARA
     public PlayerController player; //REFERENCIA DEL PLAYER
 
-    // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked; //BLOQUEAR EL RATON
@@ -22,7 +21,7 @@ public class CameraMovement : MonoBehaviour
         //ROTACION EN Y 
         yRotation -= mouseY;
 
-        //LIMITES DE CÁMARA EN EJE Y
+        //LIMITES DE CAMARA EN EJE Y
         if (yRotation >= 90)
         {
             yRotation = 90;
